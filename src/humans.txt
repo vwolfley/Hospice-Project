@@ -1,0 +1,32 @@
+humanstxt.org/
+# The humans responsible & technology colophon
+==============================================
+
+# TEAM
+
+    Maricopa Association of Governments
+    	Name:  Vern Wolfley
+    	Role: GIS Analyst/Developer
+    	Contact:
+    	Twitter: @vernwolfley
+    	From: Litchfield Park, AZ
+
+# THANKS
+
+
+# TECHNOLOGY COLOPHON
+
+    Standards: HTML5, CSS3
+    Components: HTML5BoilerPlate, Normalize.css, jQuery, Modernizr, Require.js, Kendo, ESRI Javascript API, Grunt
+
+# SITE
+
+    Site Name: Wolfley Hospice Project
+    Site URL:
+    Version: 0.0.0
+	Last updated: 2018-09-19
+    Creation date: 2018-09-19
+	Language: English
+	Doctype: HTML5
+	IDE: Sublime Text
+

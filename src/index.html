@@ -1,0 +1,104 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wolfley Hospice</title>
+    <meta name="description" content="Wolfley Hospice of Arizona">
+    <meta name="keywords" content="Hospice, care, Arizona">
+    <meta name="subject" content="Hospice care company">
+    <meta name="author" content="Vern Wolfley">
+    <link type="text/plain" rel="author" href="">
+    <meta name="contact" content="">
+    <meta name="url" content="">
+    <meta name="creation-date" content="2018-09-19">
+    <meta name="revision-date" content="2018-09-19">
+    <meta name="version" content="0.0.0">
+    <!-- Apple-Specific Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Kendo UI Bootstrap -->
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2018.1.221/styles/kendo.common-bootstrap.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2018.1.221/styles/kendo.bootstrap.min.css" />
+    <!--Font awesome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- ArcGIS -->
+    <!-- <link rel="stylesheet" href="https://js.arcgis.com/3.25/esri/css/esri.css" /> -->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.8/esri/css/main.css">
+    <link rel="stylesheet" href="app/css/normalize.css" />
+    <link rel="stylesheet" href="app/css/main.css" />
+    <!-- comments:uncomment-block html -->
+    <!-- <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = "//www.google-analytics.com/analytics.js";
+            r.parentNode.insertBefore(e, r)
+        }(window, document, "script", "ga"));
+        ga("create", "UA-29422512-1");
+        ga("send", "pageview");
+    </script>-->
+    <!-- endcomments -->
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <!--navbar-->
+    <div class="container-fluid" role="nav">
+        <div id="navbar-section1"></div>
+    </div>
+    <!--/End navbar-->
+    <!-- Selection Container -->
+    <div id="main1" class="container fill" role="main">
+        <div id="main-selection-map"></div>
+    </div>
+    <!--/End Selection Container-->
+    <!-- MAIN Container -->
+    <div id="main2" class="container" role="main">
+        <!-- School Level -->
+        <div id="main-school-details"></div>
+    </div>
+    <!-- /END MAIN Container -->
+    <!--Footer section-->
+    <div class="container-fluid footer"><div id="footer-section"></div>
+    <button class="scrollTop"><em class="glyphicon glyphicon-chevron-up"></em></button>
+    </div>
+    <!--/END Footer section-->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//kendo.cdn.telerik.com/2018.1.221/js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//kendo.cdn.telerik.com/2018.1.221/js/kendo.all.min.js"></script>
+    <script>
+        var dojoConfig = {
+            async: true,
+            packages: [{
+                name: "appPackages",
+                location: location.pathname.replace(/\/[^/]+$/, "") + "./app/js"
+            }]
+        };
+
+    </script>
+    <!-- ArcGIS JS 3.x -->
+    <!-- <script src="https://js.arcgis.com/3.25/"></script> -->
+    <script src="https://js.arcgis.com/4.8/"></script>
+    <script src="app/js/main.js"></script>
+</body>
+
+</html>
